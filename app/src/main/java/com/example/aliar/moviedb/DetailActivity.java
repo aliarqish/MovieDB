@@ -130,7 +130,7 @@ public class DetailActivity extends AppCompatActivity{
         int movie_id=getIntent().getExtras().getInt("id");
         try{
             if(BuildConfig.MOVIE_DB_API_TOKEN.isEmpty()){
-                Toast.makeText(getApplicationContext(),"Please obtain your API Key from themoviedb.org",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"ac73c243c58f6dba1c9dc954b7ed9d0d",Toast.LENGTH_SHORT).show();
                 return;
             }
             Client Client = new Client();
